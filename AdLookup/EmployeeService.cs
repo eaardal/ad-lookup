@@ -50,7 +50,7 @@ namespace AdLookup
                     return await SearchAd("facsimileTelephone­Number", searchString);
                 case EmployeeSearchType.Title:
                     return await SearchAd("title", searchString);
-                default: return null;
+                default: return new List<Employee>();
             }
         }
 
@@ -197,7 +197,7 @@ namespace AdLookup
                         employees.Add(employee);
                     }
                 }
-                return employees.Count == 0 ? null : employees;
+                return employees.Count == 0 ? new List<Employee>() : employees;
             });
         }
     }
