@@ -105,8 +105,8 @@
 
                 <Border Background="Red" Grid.Row="1">
                     <StackPanel>
-                        <Label Name="LblLogDisplay" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="16"  Foreground="Black" />
                         <Button Name="BtnHideLogDisplay" Content="Ok" Width="50" Click="BtnHideLogDisplay_OnClick"></Button>
+                        <Label Name="LblLogDisplay" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="16"  Foreground="Black" />
                     </StackPanel>
                 </Border>
             </Grid>
