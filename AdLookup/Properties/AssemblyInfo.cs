@@ -8,9 +8,9 @@ using System.Windows;
 [assembly: AssemblyTitle("AdLookup")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Statoil")]
+[assembly: AssemblyCompany("Eirik Årdal")]
 [assembly: AssemblyProduct("AdLookup")]
-[assembly: AssemblyCopyright("Copyright © Statoil 2014")]
+[assembly: AssemblyCopyright("Copyright © Eirik Årdal 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
